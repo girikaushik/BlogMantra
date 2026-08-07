@@ -1,0 +1,101 @@
+
+        #blue_bar
+        {
+            height: 50px;
+            background-color: #3c5a99; 
+            color: #d9dfeb;
+        }
+        #search_box
+        {
+            width: 400px;
+            height: 20px;
+            border-radius: 4px;
+            border: none;
+            padding: 4px;
+            font-size: 13px;
+            background-image: url(./assets/search.png);
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        #cover_area
+        {
+            width: 800px;
+            margin: auto;
+           
+            min-height: 400px;     
+            /* min height to save content overflow */
+        }
+        #profile_pic
+        {
+            width: 150px;
+            margin-top: -200px;
+            border-radius: 100px;
+            border: solid 2px white;
+        }
+        #menu_button
+        {
+            width:100px;
+            display: inline-block;
+            margin: 2px;
+            
+        }
+        #friends_img
+        {
+            width: 75px;
+            float: left;
+            
+            margin: 8px;
+        }
+        #friends_bar
+        {
+            background-color: white;
+             min-height: 400px;
+            color: #aaa;
+            padding: 8px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        #friends
+        {
+            clear: both;
+            font-size: 12px;
+            font-weight: bold;
+            color: #405d9b;
+        }
+      
+  
+        textarea
+        {
+            width: 100%;
+            border: none;
+            font-family: Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            height: 60px;
+        }
+        #post_button
+        {
+            float: right;
+            border: none;
+            width: 50px;
+            padding: 4px;
+            font-size: 14px;
+            background-color: #405d9b;
+            color: white;
+            border-radius: 4px;
+
+        }
+        #post_bar
+        {
+            margin-top: 20px;
+            background-color:#ffffff;
+            padding: 10px;
+            
+        }
+        #post
+        {
+            padding: 4px;
+            font-size: 13px;
+            display: flex;
+            margin-bottom: 20px;
+            background-color: white;
+        }
